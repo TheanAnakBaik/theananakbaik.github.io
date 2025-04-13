@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DR75 TFH - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Audio background -->
+  <audio id="background-music" autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">DR75 TFH</h1>
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="section">
+    <div class="content">
+      <div class="text">
+        <h2>Hello, it's Me</h2>
+        <h1>DR75 TFH</h1>
+        <h3>And I'm a <span class="typing">Fullstack Dev & Bot Creator</span></h3>
+        <p>Exploring the world of Telegram bots, network security, and innovative coding solutions.</p>
+        <div class="social">
+          <a href="https://t.me/TheanTionXD" target="_blank">Telegram</a>
+          <a href="#">GitHub</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+      <div class="image">
+        <img src="profil.png" alt="DR75 TFH">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hi, I’m DR75 TFH, a full-stack developer and creator of various Telegram bots, network tools, and cybersecurity scripts. I love tackling new challenges, experimenting with code, and constantly upgrading my skills in various fields of technology.</p>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python, PHP</li>
+      <li>Node.js, Express.js</li>
+      <li>Telethon, Telegram Bot API</li>
+      <li>Cybersecurity & Network Tools</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li>Bot Telegram multi-fungsi: `/udpattack`, `/tcp`, `/casino`, `/code`, `/checkproxy`, `/scrape`</li>
+      <li>TCP Flood Tool dengan support SOCKS5 proxy</li>
+      <li>UDP Flood dengan IP spoof & TLS-killnet bypass</li>
+      <li>JS & PY Obfuscator Telegram Bot</li>
+      <li>Proxy Scanner + Polling system Telegram</li>
+      <li>Userbot Pairing system via `/pairing`</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Hubungi saya melalui:</p>
+    <ul>
+      <li>Telegram: <a href="https://t.me/TheanTionXD" target="_blank">@TheanTionXD</a></li>
+      <li>Email: <a href="mailto:theantionxd@gmail.com">theantionxd@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DR75 TFH | All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Cek jika audio berhasil diputar
+    window.onload = function() {
+      var audio = document.getElementById('background-music');
+      // Jika autoplay gagal, beri tahu pengguna
+      audio.play().catch(function(error) {
+        console.log("Autoplay gagal, tunggu interaksi pengguna.");
+      });
+    };
+  </script>
+  
+</body>
+</html>

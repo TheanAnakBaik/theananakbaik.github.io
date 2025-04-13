@@ -1,0 +1,15 @@
+{
+  "name": "dr75-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio DR75 TFH via Node.js & Express on Pterodactyl",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.7"
+  },
+  "author": "DR75 TFH",
+  "license": "MIT"
+}
